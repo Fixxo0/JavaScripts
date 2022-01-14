@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+<body>
+    <script>
+        let bread1 = prompt("Which bread would you like to have");
+        let veggies1 = prompt("What are your fav veggies");
+        let sauce = prompt("Which sauce would you like to have");
+
+        function makesandwich( bread , veggies , sauce){
+            let sandwich = bread1 +" bread"+ " veggie "+ "" + sauce + " sandwich is Ready!!!";
+            return sandwich;
+        
+        }
+        let vegsandwich = makesandwich(bread1,veggies1,sauce);
+        console.log(vegsandwich);
+    </script>
+    
+</body>
+</html>
